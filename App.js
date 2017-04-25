@@ -1,5 +1,9 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { 
+  StyleSheet,
+  Text,
+  View 
+} from 'react-native';
 
 export default class App extends React.Component {
   render() {
@@ -22,3 +26,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+
+AppRegistry.registerComponent('App', () => App);
