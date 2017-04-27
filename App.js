@@ -16,6 +16,7 @@ export default class App extends React.Component {
     );
   }
 }
+
 AppRegistry.registerComponent('App', () => App);
 
 const styles = StyleSheet.create({
