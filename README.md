@@ -1,4 +1,31 @@
-# recipe-app-react
+### React Native Dating app
+
+__[Dating app](https://dribbble.com/shots/3382557-Dating-app) by [Vitaly Silkin](https://dribbble.com/colder)__
+
+Exponent: https://exp.host/@catalinmiron/react-native-dating-app
+
+![react-native-dating-app](https://cloud.githubusercontent.com/assets/2805320/24679653/81e88b3a-1996-11e7-9474-db82d5cb0e20.gif)
+
+
+----
+
+Stack:
+
+- [React native](https://facebook.github.io/react-native/)
+- [Expo](http://expo.io)
+- [Create React Native App](https://github.com/react-community/create-react-native-app)
+- [Expo ExNavigation](https://github.com/expo/ex-navigation)
+
+----
+
+![Aristotle](http://images.gr-assets.com/authors/1390143800p2/2192.jpg)
+> “For the things we have to learn before we can do them, we learn by doing them.”
+
+― Aristotle, The Nicomachean Ethics
+
+
+--------------------
+
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
@@ -46,14 +73,6 @@ If Yarn was installed when the project was initialized, then dependencies will h
 Runs your app in development mode.
 
 Open it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
-
-Sometimes you may need to reset or clear the React Native packager's cache. To do so, you can pass the `--reset-cache` flag to the start script:
-
-```
-npm start -- --reset-cache
-# or
-yarn start -- --reset-cache
-```
 
 #### `npm test`
 
@@ -140,9 +159,9 @@ To add a local dependency to the correct Flow version to a Create React Native A
 4. Add `// @flow` to any files you want to type check (for example, to `App.js`).
 
 Now you can run `npm run flow` (or `yarn flow`) to check the files for type errors.
-You can optionally use a [plugin for your IDE or editor](https://flow.org/en/docs/editors/) for a better integrated experience.
+You can optionally use a plugin for your IDE for a better integrated experience.
 
-To learn more about Flow, check out [its documentation](https://flow.org/).
+To learn more about Flow, check out [its documentation](https://flowtype.org/).
 
 ## Sharing and Deployment
 
@@ -177,9 +196,7 @@ If you have made use of Expo APIs while working on your project, then those API 
 
 ### Networking
 
-If you're unable to load your app on your phone due to a network timeout or a refused connection, a good first step is to verify that your phone and computer are on the same network and that they can reach each other. Create React Native App needs access to ports 19000 and 19001 so ensure that your network and firewall settings allow access from your device to your computer on both of these ports.
-
-Try opening a web browser on your phone and opening the URL that the packager script prints, replacing `exp://` with `http://`. So, for example, if underneath the QR code in your terminal you see:
+If you're unable to load your app on your phone due to a network timeout or a refused connection, a good first step is to verify that your phone and computer are on the same network and that they can reach each other. Try opening a web browser on your phone and opening the URL that the packager script prints, replacing `exp://` with `http://`. So, for example, if underneath the QR code in your terminal you see:
 
 ```
 exp://192.168.0.1:19000
@@ -189,12 +206,6 @@ Try opening Safari or Chrome on your phone and loading
 
 ```
 http://192.168.0.1:19000
-```
-
-and
-
-```
-http://192.168.0.1:19001
 ```
 
 If this works, but you're still unable to load your app by scanning the QR code, please open an issue on the [Create React Native App repository](https://github.com/react-community/create-react-native-app) with details about these steps and any other error messages you may have received.
@@ -220,6 +231,3 @@ There are a few steps you may want to take to troubleshoot these kinds of errors
 If you're not able to scan the QR code, make sure your phone's camera is focusing correctly, and also make sure that the contrast on the two colors in your terminal is high enough. For example, WebStorm's default themes may [not have enough contrast](https://github.com/react-community/create-react-native-app/issues/49) for terminal QR codes to be scannable with the system barcode scanners that the Expo app uses.
 
 If this causes problems for you, you may want to try changing your terminal's color theme to have more contrast, or running Create React Native App from a different terminal. You can also manually enter the URL printed by the packager script in the Expo app's search bar to load it manually.
-
-
-
