@@ -14,6 +14,7 @@ import {
   StatusBar
 } from 'react-native';
 
+
 import styles, { BAR_HEIGHT } from './components/styles.js';
 import Header from './components/Header';
 
