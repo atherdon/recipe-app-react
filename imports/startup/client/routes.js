@@ -15,6 +15,7 @@ import NotFound from '../../ui/pages/NotFound.js';
 import RecoverPassword from '../../ui/pages/RecoverPassword.js';
 import ResetPassword from '../../ui/pages/ResetPassword.js';
 import Signup from '../../ui/pages/Signup.js';
+import GiftSubscription from '../../ui/pages/GiftSubscription.js';
 
 const authenticate = (nextState, replace) => {
   if (!Meteor.loggingIn() && !Meteor.userId()) {
@@ -38,6 +39,7 @@ Meteor.startup(() => {
         <Route name="recover-password" path="/recover-password" component={ RecoverPassword } />
         <Route name="reset-password" path="/reset-password/:token" component={ ResetPassword } />
         <Route name="signup" path="/signup" component={ Signup } />
+        <Route name="giftSubscription" path="/gift-subscription" component={ GiftSubscription } />
         <Route path="*" component={ NotFound } />
       </Route>
     </Router>,

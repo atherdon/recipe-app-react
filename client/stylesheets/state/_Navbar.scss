@@ -4,3 +4,22 @@
   color: #555;
   background-color: #e7e7e7;
 }
+.navbar-default {
+	background-color: #E94B43;
+	a {
+		color: white!important;
+	}
+}
+.navbar-toggle.collapsed {
+	border: none;
+}
+.navbar-toggle {
+	background-color: transparent!important;
+	border: none!important;
+	& > span {
+		background-color: white!important;
+	}
+}
+.navbar-header {
+	background-color: red!important;
+}
