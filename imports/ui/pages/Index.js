@@ -11,17 +11,15 @@ const Index = () => (
       <Link to="/signup" className="btn btn-success">Registration</Link>
       <Link to="/sample-menu" className="btn btn-success">Sample Menu</Link>
       <Link to="/weekly-menu" className="btn btn-success">Weekly Menu</Link>
-      <Link to="/blog" className="btn btn-success">Blog</Link>
     </Jumbotron>
-		<a href="#">
-			<Image 
-				src={'post.jpg'}
-				alt="" 
-				className="img-responsive img-rounded" />
-			<Text>
+		<div>
+			<h3 className="text-center">Blog</h3>
+			<Image src={'post.jpg'}	alt="" className="img-responsive img-rounded" />
+			<p>
 				You can checkout our blog to see some news and new spicy recipes.
-			</Text>
-		</a>
+			</p>
+    	<Link to="/blog" className="btn btn-success">Check</Link>
+		</div>
   </div>
 );
 
