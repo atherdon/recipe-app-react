@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron } from 'react-bootstrap';
+import { Jumbotron, Image } from 'react-bootstrap';
 import { Router, Route, browserHistory } from 'react-router';
 import { Link } from 'react-router';
 
@@ -13,6 +13,15 @@ const Index = () => (
       <Link to="/weekly-menu" className="btn btn-success">Weekly Menu</Link>
       <Link to="/blog" className="btn btn-success">Blog</Link>
     </Jumbotron>
+		<a href="#">
+			<Image 
+				src={'post.jpg'}
+				alt="" 
+				className="img-responsive img-rounded" />
+			<Text>
+				You can checkout our blog to see some news and new spicy recipes.
+			</Text>
+		</a>
   </div>
 );
 
