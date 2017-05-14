@@ -45,10 +45,11 @@ Meteor.startup(() => {
         <Route name="giftSubscription" path="/gift-subscription" component={ GiftSubscription } />
         <Route name="sampleMenu" path="/sample-menu" component={ SampleMenu } />
         <Route name="blog" path="/blog" component={ Blog } />
-        <Route name="weeklyMenu" path="weekly-menu" component={ WeeklyMenu } />
+        <Route name="weeklyMenu" path="/weekly-menu" component={ WeeklyMenu } />
         <Route path="*" component={ NotFound } />
       </Route>
     </Router>,
     document.getElementById('react-root'),
   );
 });
+

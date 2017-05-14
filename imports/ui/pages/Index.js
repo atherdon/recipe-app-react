@@ -30,7 +30,7 @@ const Index = () => (
 			<p>
 				Take a look at our weekly menu, bro.
 			</p>
-			<Link to="/WeeklyMenu" className="btn btn-block btn-success">Check weekly menu</Link>
+			<Link to="/weekly-menu" className="btn btn-block btn-success">Check weekly menu</Link>
 		</div>
 
 		<div>
@@ -39,7 +39,7 @@ const Index = () => (
 			<p>
 				It's a simple example of one manu, tastes good!
 			</p>
-			<Link to="/SimpleMenu" className="btn btn-block btn-success">Check Sample Menu</Link>
+			<Link to="/simple-menu" className="btn btn-block btn-success">Check Sample Menu</Link>
 		</div>
   </div>
 );
