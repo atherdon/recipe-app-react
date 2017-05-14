@@ -1,0 +1,23 @@
+.weekly-menu__block {
+	border: 1px solid grey;
+	margin-bottom: 10px;
+}
+.weekly-menu__block-item {
+	padding: 5px
+	h4 {
+		margin-top: 0px
+	}
+	h4,
+	p {
+		padding-left: 35%
+	}
+}
+.weekly-menu__block-item-image-wrapper {
+	width: 30%;
+	margin-left: 5px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.weekly-menu__block-item:not(:last-child) {
+	border-bottom: 1px solid grey;
+}
