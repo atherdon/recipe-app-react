@@ -15,7 +15,7 @@
     "chimp": "^0.41.2",
     "eslint": "^3.8.1",
     "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-plugin-meteor": "^4.0.1",
     "eslint-plugin-react": "^6.4.1"
