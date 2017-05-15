@@ -39,7 +39,7 @@ const Index = () => (
 			<p>
 				It's a simple example of one manu, tastes good!
 			</p>
-			<Link to="/simple-menu" className="btn btn-block btn-success">Check Sample Menu</Link>
+			<Link to="/sample-menu" className="btn btn-block btn-success">Check Sample Menu</Link>
 		</div>
   </div>
 );

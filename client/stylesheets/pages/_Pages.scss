@@ -1,4 +1,5 @@
-.weekly-menu__block {
+.weekly-menu__block,
+.sample-menu {
 	border: 1px solid grey;
 	margin-bottom: 10px;
 }
@@ -20,4 +21,17 @@
 }
 .weekly-menu__block-item:not(:last-child) {
 	border-bottom: 1px solid grey;
+}
+.sample-menu {
+	border: 1px solid grey;
+	padding: 5px;
+	img {
+		width: 100%;
+	}
+	button {
+		border: none;
+		background: transparent;
+		border-top: 1px solid grey;
+	}
+		
 }
